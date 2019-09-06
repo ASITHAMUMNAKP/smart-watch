@@ -1,0 +1,132 @@
+.right{
+    background-color: #fafafa;
+    height:100vh;
+    
+}
+.left{
+    background-color:  #1394f6;
+    height:100vh;
+    text-align: center;
+    padding-top: 14em;
+    font-size:20px;
+    
+    
+    
+}
+.smart{
+  color:white;
+}
+
+.watch-strap-1{
+    position: relative;
+width: 117px;
+height: 84px;
+
+background: #110808;
+border-radius: 20px 20px 0px 0px;
+margin-left: 14em;
+
+}
+.watch-strap-2{
+   position: absolute;
+width: 118.62px;
+height: 27.5px;
+
+background: #C4C4C4;
+margin-left: 14em;
+  
+}
+.watch{
+ color:black;
+ 
+}
+.watch-frame
+{
+position: absolute;
+width: 181px;
+height: 162px;
+
+background: #010000;
+border-radius: 18.2182px;
+margin-top: 28px;
+margin-left: 191px;
+
+}
+.watch-screen
+{
+    position: absolute;
+width: 149px;
+height: 125.82px;
+
+background: #C4C4C4;
+border-radius: 13px;
+margin-left: 15px;
+    margin-top: 18px;
+}
+.watch-strap-3{
+    position: absolute;
+width: 117px;
+height: 120px;
+
+background: #110808;
+
+margin-top: 189px;
+    margin-left: 14em;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.fas{
+    color: white;
+    margin-top: 20px;
+}
+.display1{
+   text-align: center;
+   margin-top: 14px; 
+}
+.date{
+        text-align: center;
+    font-size: 11px
+}
+.time{
+    text-align: center;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-size: x-large
+}
+.chageicon{
+    margin-left: 7px;
+    color: black;
+    margin-top: auto;
+}
+.mesg1{
+    position: absolute;
+width: 120px;
+height: 23px;
+
+background: #87C7BB;
+border-radius: 10px;
+text-align: center;
+margin-left: 1em;
+}
+.mesg2{
+    position: absolute;
+width: 120px;
+height: 23px;
+
+background: #87C7BB;
+border-radius: 10px;
+    margin-top: 2em;
+    margin-left: 1em;
+    text-align: center
+
+}
+.mesg3{
+     position: absolute;
+    width: 120px;
+    height: 23px;
+    background: #87C7BB;
+    border-radius: 10px;
+    margin-top: 67px;
+    text-align: center;
+    margin-left: 1em;
+}
