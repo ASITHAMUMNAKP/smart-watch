@@ -118,6 +118,7 @@ background: #87C7BB;
 border-radius: 10px;
 text-align: center;
 margin-left: 1em;
+margin-top: 13px;
 }
 .mesg2{
     position: absolute;
@@ -126,7 +127,7 @@ height: 23px;
 
 background: #87C7BB;
 border-radius: 10px;
-    margin-top: 2em;
+    margin-top: 49px;;
     margin-left: 1em;
     text-align: center
 
@@ -137,7 +138,7 @@ border-radius: 10px;
     height: 23px;
     background: #87C7BB;
     border-radius: 10px;
-    margin-top: 67px;
+    margin-top: 87px;
     text-align: center;
     margin-left: 1em;
 }
