@@ -15,7 +15,32 @@
 //      });
 // });
 // });
-window.onload = () => {
+$(function () {
+    $(".timerr").toggle();
+    $(".musicc").toggle();
+    // $( ".message-notification" ).hide();
+    $(".mus").click(function () {
+        $(".musicc").toggle();
+        $(".timerr").hide();
+        $(".screen1").toggle();
+      
+    });
+    $(".tim").click(function () {
+        $(".timerr").toggle();
+        $(".musicc").hide();
+        $(".screen1").hide();
+        
+    });
+    $(".watch-strap-2").click(function () {
+        $(".timerr").hide();
+        $(".musicc").hide();
+        $(".screen1").hide();
+        $(".screen1").show();
+
+    });
+  
+});
+
     let hour = 0;
     let minute = 0;
     let seconds = 0;
@@ -50,4 +75,3 @@ window.onload = () => {
         document.getElementById("min").innerHTML = '0';
         document.getElementById("sec").innerHTML = '0';
     });
-}

@@ -44,7 +44,7 @@ margin-left: 14em;
 {
 position: absolute;
 width: 181px;
-height: 162px;
+height: 220px;
 
 background: #010000;
 border-radius: 18.2182px;
@@ -56,12 +56,21 @@ margin-left: 191px;
 {
     position: absolute;
 width: 149px;
-height: 125.82px;
+height: 190px;
 
 background: #C4C4C4;
 border-radius: 13px;
 margin-left: 15px;
     margin-top: 18px;
+}
+.musicc{
+    position: relative;
+width: 149px;
+height: 190px;
+
+background: #C4C4C4;
+border-radius: 13px;
+
 }
 .watch-strap-3{
     position: absolute;
@@ -70,7 +79,7 @@ height: 120px;
 
 background: #110808;
 
-margin-top: 189px;
+margin-top: 248px;
     margin-left: 14em;
     border-radius: 0px 0px 20px 20px;
 
