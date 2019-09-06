@@ -1,4 +1,6 @@
 $(function () {
+
+     $(".screen2").hide();
     $(".icon").click(function () {
         $(".screen1").hide();
     });
