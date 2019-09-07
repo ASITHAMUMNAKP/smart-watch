@@ -21,19 +21,21 @@
     position: relative;
 width: 117px;
 height: 84px;
+z-index: 1;
 
 background: #110808;
-border-radius: 20px 20px 0px 0px;
+border-radius: 29px 0px 39px 0px;
 margin-left: 14em;
 
 }
 .watch-strap-2{
    position: absolute;
-width: 118.62px;
-height: 27.5px;
-
+width: 115.62px;
+height: 75px;
+top:13%;
 background: #C4C4C4;
 margin-left: 14em;
+
   
 }
 
