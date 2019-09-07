@@ -61,7 +61,7 @@ let day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 
 document.getElementById("display1").innerHTML = day[n];
 document.getElementById("date").innerHTML = p.getDay() + "/0" + p.getMonth() + "/" + p.getFullYear();;
-document.getElementById("time").innerHTML = p.getHours() + ":" + p.getMinutes() + ":" + p.getSeconds() + " " + "am";
+document.getElementById("time").innerHTML = p.getHours() + ":" + p.getMinutes() + ":" + p.getSeconds() + " " + "pm";
 
 //function to change the messages
 
