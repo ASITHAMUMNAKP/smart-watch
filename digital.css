@@ -36,6 +36,7 @@ background: #C4C4C4;
 margin-left: 14em;
   
 }
+
 .watch{
  color:black;
  
@@ -88,15 +89,15 @@ margin-top: 248px;
     color: white;
     margin-top: 20px;
 }
-.display1{
+#display1{
    text-align: center;
    margin-top: 14px; 
 }
-.date{
+#date{
         text-align: center;
     font-size: 11px
 }
-.time{
+#time{
     text-align: center;
     margin-top: 10px;
     font-family: fantasy;
@@ -153,16 +154,15 @@ border-radius: 10px;
     margin-top: 5px;
 }
 .messagebox{
-  margin-left: 14px;
+      margin-left: 14px;
     position: absolute;
     width: 117px;
     width: 121;
-    height: 58px;
+    height: auto;
     background: #D0C91D;
-    margin-top: 33px;
+    margin-top: 44px;
     text-align: center;
-
-background: #D0C91D;
+    
 }
 .backicon{
      margin-left: 108px;
@@ -170,7 +170,7 @@ background: #D0C91D;
     width: 16px;
     height: 16px;
     background: #000000;
-    margin-top: 100px
+    margin-top: 147px;
 }
 .timer{
       text-align: start;
@@ -224,4 +224,9 @@ background: #D0C91D;
 #time:hover{
     cursor: pointer;
     color: red;
+}
+.mess{
+    color: black;
+    margin-top: 148px;
+    margin-left: 80px
 }

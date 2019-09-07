@@ -1,3 +1,5 @@
+<!-- Author:Asitha mumna
+Discription:This is a simple smart watch with date,timer,music and messaging applications -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,6 +16,7 @@
 </head>
 
 <body>
+    <!-- watch design -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 left">
@@ -23,52 +26,67 @@
             <div class="col-6  right">
                 <div class="mt-5 margin">
 
-                    <div class="watch-strap-1"></div>
-                    <div class="watch-strap-2"></div>
+                    <div class="watch-strap-1">
+                    </div>
+                    
+
+                    <div class="watch-strap-2">
+                    </div>
                     <div class="watch-frame">
                         <div class="watch-screen ">
-                             <div class="musicc">
+                            <!-- music display using iframe -->
+                            <div class="musicc">
                                 <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="100%"
                                     height="100%" frameborder="0" allowtransparency="true"
-                                    allow="encrypted-media"></iframe></div> 
-                             <div class="screen1">
-                                <div class="display1" id="display1">SUNDAY</div>
-                                <div class="date" id="date">14/07/2019</div>
-                                <div class="time" id="time">04:20:31 pm</div>
-                            </div> 
-                            
-                             <div class="screen2">
-                                
+                                    allow="encrypted-media"></iframe></div>
+                            <!-- to display the main screen -->
+                            <div class="screen1">
+                                <div id="display1">SUNDAY</div>
+                                <div id="date">14/07/2019</div>
+                                <div  id="time">04:20:31 pm</div>
+                            </div>
+                            <!-- to display the messages -->
+                            <div class="screen2">
+
                                 <div class="icon">
                                     <i class="fas fa-comments  chageicon"> messages</i>
                                 </div>
-                                
+
                                 <div class="mesg1">athitya</div>
                                 <div class="mesg2">faisa</div>
-                                <div class="mesg3">showki</div> 
-                            </div> 
-                             <div class="screen3">
-                                <div class="mesg4">athithya</div>
-                                <div class="messagebox">hey,how are you!!! </div>
+                                <div class="mesg3">showki</div>
+                            </div>
+                            <div class="screen3">
+                                <div class="mesg4">asi</div>
+                                <div class="messagebox"></div>
                                 <div class="icon">
                                     <i class="fas fa-arrow-left backicon"> </i>
+                                </div>
+                                <div class="icon">
+                                    <i class="fas fa-comments mess"></i>
                                 </div>
                             </div>
                             <div class="screen4">
-                                <div class="mesg4">faisa</div>
-                                <div class="messagebox">hope you are doing good!!! </div>
+                                <div class="mesg4"></div>
+                                <div class="messagebox"></div>
                                 <div class="icon">
                                     <i class="fas fa-arrow-left backicon"> </i>
                                 </div>
+                                <div class="icon">
+                                    <i class="fas fa-comments mess"></i>
+                                </div>
                             </div>
                             <div class="screen5">
-                            <div class="mesg4">showki</div>
-                            <div class="messagebox">hey,where are you!!! </div>
-                            <div class="icon">
-                                <i class="fas fa-arrow-left backicon"> </i>
+                                <div class="mesg4"></div>
+                                <div class="messagebox"></div>
+                                <div class="icon">
+                                    <i class="fas fa-arrow-left backicon"> </i>
+                                </div>
+                                <div class="icon">
+                                    <i class="fas fa-comments mess"></i>
+                                </div>
                             </div>
-                        </div>
-                            
+                            <!-- timer display -->
                             <div class="timerr">
                                 <p class="timer">Timer</p>
                                 <div id="timedisplay"><span id="hour">00</span>:<span id="min">00</span>:<span

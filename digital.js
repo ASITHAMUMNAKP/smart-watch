@@ -1,113 +1,55 @@
 
 
-
 $(function () {   //on load function
-    $(".timerr").hide();
-    $(".musicc").hide();
-    $(".screen2").hide();
-    $(".screen3").hide();
-    $(".screen4").hide();
-    $(".screen5").hide();
-    
-       
+
+    $(".musicc,.timerr,.screen3,.screen2,.screen4,.screen5").hide();
     $(".mes").click(function () {  //function for messages
-        $(".musicc").hide();
-        $(".timerr").hide();
-        $(".screen1").hide();
-        $(".screen3").hide();
-        $(".screen4").hide();
-        $(".screen5").hide();
+        $(".musicc,.timerr,.screen1,.screen3,.screen4,.screen5").hide();
         $(".screen2").show();
 
     });
-        $(".mesg1").click(function () {  //function for each messages
-            $(".musicc").hide();
-            $(".timerr").hide();
-            $(".screen1").hide();
-            $(".screen2").hide();
-            $(".screen4").hide();
-            $(".screen5").hide();
-            $(".screen3").show();
-         
+    $(".mesg1").click(function () {  //function for each messages
+        $(".musicc,.timerr,.screen1,.screen2,.screen4,.screen5").hide();
+
+        $(".screen3").show();
+
     });
     $(".mesg2").click(function () {  //function for each messages
-        $(".musicc").hide();
-        $(".timerr").hide();
-        $(".screen1").hide();
-        $(".screen2").hide();
-        $(".screen3").hide();
-        $(".screen5").hide();
+        $(".musicc,.timerr,.screen1,.screen2,.screen3,.screen5").hide();
         $(".screen4").show();
 
     });
     $(".mesg3").click(function () {  //function for each messages
-        $(".musicc").hide();
-        $(".timerr").hide();
-        $(".screen1").hide();
-        $(".screen2").hide();
-        $(".screen3").hide();
+        $(".musicc,.timerr,.screen1,.screen2,.screen3,.screen4").hide();
         $(".screen5").show();
-        $(".screen4").hide();
-
-    });
-        $(".mesg2").click(function () {  //function for each messages
-        $(".musicc").hide();
-        $(".timerr").hide();
-        $(".screen1").hide();
-        $(".screen2").hide();
-        $(".screen3").hide();
-        $(".screen5").hide();
-        $(".screen4").show();
-
     });
     $(".backicon").click(function () {  //function for getting back to screen2
-        $(".musicc").hide();
-        $(".timerr").hide();
-        $(".screen1").hide();
+        $(".musicc,.timerr,.screen1,.screen3,.screen5,.screen4").hide();
         $(".screen2").show();
-        $(".screen3").hide();
-        $(".screen5").hide();
-        $(".screen4").hide();
-
     });
 
 
 
     $(".mus").click(function () {  //function for music
-        $(".musicc").show();
-        $(".timerr").hide();
-        $(".screen1").hide();
-        $(".screen2").show();
-        $(".screen3").hide();
-        $(".screen5").hide();
-        $(".screen4").hide();
-        
 
-      
+        $(".timerr,.screen1,.screen2,.screen3,.screen5,.screen4").hide();
+        $(".musicc").show();
+
     });
     $(".tim").click(function () {   //function for timer
+
+        $(".musicc,.screen1,.screen2,.screen3,.screen5,.screen4").hide();
         $(".timerr").show();
-        $(".musicc").hide();
-        $(".screen1").hide();
-        $(".screen2").hide();
-        $(".screen3").hide();
-        $(".screen5").hide();
-        $(".screen4").hide();
-        
-        
-    });
-    $(".watch-strap-2").click(function () {  //to display the screen
-        $(".timerr").hide();
-        $(".musicc").hide();
-        
-        $(".screen1").show();
-        $(".screen2").hide();
-        $(".screen3").hide();
-        $(".screen5").hide();
-        $(".screen4").hide();
+
+
 
     });
-  
+    $(".watch-strap-2").click(function () {  //to display the screen
+        $(".musicc,.timerr,.screen2,.screen3,.screen5,.screen4").hide();
+        $(".screen1").show();
+
+    });
+
 });
 
 
@@ -121,7 +63,19 @@ document.getElementById("display1").innerHTML = day[n];
 document.getElementById("date").innerHTML = p.getDay() + "/0" + p.getMonth() + "/" + p.getFullYear();;
 document.getElementById("time").innerHTML = p.getHours() + ":" + p.getMinutes() + ":" + p.getSeconds() + " " + "am";
 
-//   functn to change the timer
+//function to change the messages
+
+var nam = ["adithya", "faisa", "showki"];
+
+var mesg = ["hope you are doing good!!! see u soon..", "Loooi, are you there, its time to go", "hey,where are you!!! waiting for a long time...."];
+
+for (i = 0; i < 3; i++) {
+    document.getElementsByClassName("mesg4")[i].innerHTML = nam[i];
+    document.getElementsByClassName("messagebox")[i].innerHTML = mesg[i];
+}
+
+
+    //function  for timer
 let hour = 0;
 let minute = 0;
 let seconds = 0;
